@@ -1,0 +1,862 @@
+body {
+    background-color: #fff;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 100%;
+    
+}
+
+.header {
+    font-family: 'RF Dewi';
+    position: fixed;
+    width: 100%;
+
+}
+    
+
+    .header__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0 12px;
+        border-bottom: #fff solid 4px;
+        z-index: 10;
+
+    }
+
+    .header__left {
+        display: flex;
+        
+    }
+
+    .header__title{
+        padding-left: 8px;
+        color: #fff;
+    }
+
+    .header__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    a:hover {
+        color: #778899;
+    }
+
+    ul li {
+        color: #fff;
+        margin-right: 44px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        text-transform: uppercase;
+        list-style-type: none;
+        transition: 0.5s ease;
+
+    }
+
+    ul li:hover {
+        transform: scale(1.2);
+        transition: 0.5s ease;
+    }
+        
+    ul li:last-child {
+        margin-right: 0;
+    
+    }
+
+    ul li:nth-child(4) {
+        margin-right: 123px;
+        
+    }
+   
+.intro {
+    background-image: url(../img/sec1/Rectangle140@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    min-height: 100vh;
+
+}
+
+    .intro__content {
+        display: flex;
+        flex-direction: column;
+        padding: 147px 0 30px;
+        
+    }
+
+    .intro__title {
+        font-family: 'Druk Cyr';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 220px;
+        line-height: 89%;
+        text-transform: uppercase;
+    }
+
+    .intro__subtitle {
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 217px;
+        margin-top: -179px;
+        margin-left: 600px;
+    }
+
+    .intro__footer {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 169px;
+
+    }
+
+    .intro__social {
+        display: flex;
+
+    }
+
+    .intro__icon {
+        margin-right: 14px;
+        transition: 1s ease;
+
+    }
+
+    .intro__icon:hover {
+        transition: 1s ease;
+        transform: scale(1.2);
+    }
+
+    
+    .intro__btn {
+        font-family: 'RF Dewi';
+        background-color: rgba(250,250,250 ,0.005);
+        padding: 15px 65px;
+        border: #fff solid 1px;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        transition: 1s ease;
+        
+    }
+
+    .intro__btn:hover {
+        background-color: rgba(250,250,250 ,0.1);
+        border: #fff solid 3px;
+        transform: scale(1.04);
+        transition: 1s ease;
+    }
+
+
+.services {
+    background-color: rgba(98, 98, 212, 1);
+    color: #fff;
+}
+
+    .services__body {
+        display: flex;
+        flex-direction: column;
+        padding: 75px 0 132px;
+        
+    }
+
+    .services__page {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .services__title {
+        font-family: 'Druk Cyr';
+        font-weight: 500;
+        font-size: 220px;
+        line-height: 116%;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        z-index: 2;
+    }
+
+    .services__sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 52px;
+    }
+
+    .services__name {
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    .services__job {
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        padding-bottom: 20px;
+    }
+    
+    .services__button {
+        margin-top: 20px;
+    }
+
+    .services__btn {
+        width: 259px;
+        height: 50px;
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 96.3%;
+        border: rgba(255, 255, 255, 1) solid 1px;
+        color: #fff;
+        cursor: pointer;
+        background-color: rgba(250, 250, 250, 0.005);
+        transition: 1.5s ease;
+    }
+
+    .services__btn:hover, :focus {
+        transform: scale(1.04);
+        transition: 1.5s ease;
+        box-shadow: 0 0 20px #696969;
+        background-color: rgb(164, 161, 184);
+        border: #fff solid 3px;
+    }
+
+    .services__btn--2 {
+        border-radius: 5px;
+    }
+    
+    .services__block {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .services__box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services__text {
+        width: 269px;
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .services__pic {
+        margin-left: 220px;
+        margin-top: -315px;
+    }
+
+.agency {
+    background-color: #F09819;
+    color: #fff;
+}
+
+    .agency__body {
+        display: flex;
+        flex-direction: column;
+        padding: 51px 0 116px;
+        position: relative;
+    }
+
+    .agency__page {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .agency__title {
+        font-family: 'Druk Cyr';
+        font-weight: 500;
+        font-size: 220px;
+        line-height: 116%;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        z-index: 2;
+    }
+
+    .agency__sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 52px;
+        z-index: 2;
+    }
+
+    .agency__name {
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    .agency__job {
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        padding-bottom: 20px;
+    }
+
+    .agency__button {
+        margin-top: 20px;
+        z-index: 3;
+    }
+
+    .agency__btn {
+        width: 259px;
+        height: 50px;
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 96.3%;
+        border: rgba(255, 255, 255, 1) solid 1px;
+        color: #fff;
+        cursor: pointer;
+        background-color: rgba(250, 250, 250, 0.005);
+        transition: 1.5s ease;
+    }
+
+    .agency__btn:hover {
+        transform: scale(1.04);
+        transition: 1.5s ease;
+        background-color: rgb(201, 190, 90);
+        border: #fff solid 2px;
+    }
+
+    .agency__btn:focus {
+        box-shadow: 0 0 20px #696969;
+        color: cadetblue;
+    }
+
+    .agency__btn--2 {
+        border-radius: 5px;
+    }
+
+    .agency__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: -100px;
+    }
+
+    .agency__box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .agency__text {
+        width: 269px;
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .agency__pic {
+        margin-bottom: -120px;
+        margin-left: 190px;
+        z-index: 1;
+    }
+
+    .agency__img {
+        position: absolute;
+        left: 296px;
+        top: 185px;
+    }
+    
+.team {
+    background-color: #fff;
+
+}
+
+    .team__body {
+        display: flex;
+        justify-content: space-between;
+        
+        padding: 128px 0 116px;
+        
+    }
+
+    .team__box {
+        font-family: 'RF Dewi';
+        max-width: 320px;
+        
+    }
+
+    .team__pic {
+        margin-bottom: 21px;
+    }
+
+    .team__name {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        color: rgba(0, 0, 0, 1);
+        margin-bottom: 15px;
+
+    }
+
+    .team__position {
+        max-width: 320px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.58);
+        margin-bottom: 36px;
+
+    }
+
+    .team__position--2 {
+        margin-bottom: 76px;
+
+    }
+
+    .team__email {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+        margin-bottom: 9px;
+        letter-spacing: -1.5px;
+
+    }
+
+    .team__phone {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .team__ring {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+        border: #000000 solid 1px;
+        margin-top: 34px;
+    }
+
+    .team__text {
+        font-family: 'Druk Cyr';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 100px;
+        line-height: 96.3%;
+        border-bottom: #000000 solid 5px;
+        padding-bottom: 22px;
+    
+    }
+
+.us {
+    background-color: #fff;
+}
+    
+    .us__body {
+        display: flex;
+    }
+    
+    .us__aside {
+        margin-right: 135px;
+    }    
+    
+    .us__block {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;                                
+    }
+
+    .us__row {
+        display: flex;
+        align-items: center;
+    }
+    
+    .us__item {
+        font-family: 'Druk Cyr';
+        font-weight: 500;
+        font-size: 220px;
+        line-height: 96.3%;
+        letter-spacing: 0.065em;
+        text-transform: uppercase;
+        margin-bottom: -30px;
+    }
+
+    .us__picture {
+        margin: 0px 0px -25px 12px;
+    }
+    
+    .us__ward {
+        padding-left: 125px;
+    }
+           
+    .us__content {
+        display: flex;
+        flex-direction: column;
+    }           
+    
+    .us__text {
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 145%;
+        max-width: 543px;
+    }            
+    
+    .us__button {
+        margin-top: 40px;
+    }           
+    
+    .us__btn {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #000000;
+        padding: 15px 88px;
+        border: #000000 solid 1px;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        transition: 1s ease;
+    } 
+
+    .us__btn:hover {
+        background-color: rgba(250, 250, 250, 0.034);
+        border: #242323 solid 3px;
+        transform: scale(1.05);
+        color: #1a1616;
+        transition: 1s ease;
+    }            
+
+    .us__sidebar {
+        position: relative;
+        padding-top: 20px;
+    }           
+    
+    .us__pic1 {
+        position: absolute;
+        top: 38%;
+        left: -21%;
+        width: 295px;
+        height: 380px;
+    }            
+    
+    .us__pic2 {
+        z-index: 2;
+        width: 550px;
+        height: 820px;
+    }           
+    
+    .us__pic3 {
+        position: absolute;
+        top: 16%;
+        left: 86%;
+        z-index: 0;
+        width: 180px;
+        height: 290px;
+    }
+    
+    
+.contact {
+    background-color: #fff;
+}
+
+    .contact__body {
+        display: flex;
+        justify-content: space-between;
+        padding: 192px 0 100px;
+    }
+    
+    .contact__content {
+        display: flex;
+        align-items: flex-end;
+        max-width: 860px;
+        max-height: 602px;
+        background-color: #ECEAEA;
+    }
+
+    .contact__block {
+        display: flex;
+        flex-direction: column;
+        padding: 139px 0px 0px 69px;
+    }
+
+    .contact__title {
+        font-family: 'Druk Cyr';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 70px;
+        line-height: 99.5%;
+        letter-spacing: 0.065em;
+        text-transform: uppercase;
+        padding-bottom: 90px;
+    }
+
+    .origin {
+        width: 357px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 140px;
+    }
+
+    form.origin input {
+        background-color: #ECEAEA;
+        border: none ;
+        border-bottom: 2px solid #000000;
+        margin-bottom: 30px;
+        padding: 13px 0 13px 5px;
+    }
+
+    form.origin input:last-child {
+        margin-bottom: 0;
+    }
+
+    input::placeholder  {
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 145%;
+        color: rgba(0, 0, 0, 0.58);
+    }
+    
+    form.origin input:focus{
+        background-color: #C4C4C4;
+        border: none;
+        outline: none;
+        border-left: 2px solid #778899;
+        
+    }
+
+    .contact__pic {
+        padding-right: 200px;
+        margin-bottom: 114px;
+    }
+
+    .contact__sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact__text {
+        font-family: 'ABeeZee', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 145%;
+        color: rgba(0, 0, 0, 0.58);
+        max-width: 648px;
+        margin-left: 30px;
+    }
+    
+        
+.footer {
+    background-color: #F9F9F9;
+
+}
+        
+    .footer__body {
+        display: flex;
+        justify-content: start;
+        padding: 90px 0 77px;
+    }
+        
+    .footer__left {
+        display: flex;
+        border-right: #C4C4C4 solid 2px;
+        padding-right: 44px;
+    }
+
+    .footer__pic {
+        margin-right: 9px;
+    }
+
+    .footer__title {
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16.3217px;
+        line-height: 96.3%;                
+    }
+        
+    .footer__services {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 72px 0 52px;
+        
+    }
+        
+    span {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+                       
+    }
+        
+    .footer__text {
+        text-transform: uppercase;
+    }
+        
+    .footer__block {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 134px 0 100px;
+        border-left: #C4C4C4 solid 2px;
+        border-right: #C4C4C4 solid 2px;                
+    }
+        
+    .footer__team {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 85px; 
+    }               
+        
+    .footer__team :nth-child(2) {
+        margin-right: 139px;
+    }                
+        
+    .footer__team :last-child {
+        margin-right: 0;
+    }               
+        
+    .footer__item {
+        font-family: 'RF Dewi';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        text-transform: uppercase;               
+    }
+
+#map {
+    height: 280px;
+    width: 108%;
+    margin-left: -40px;
+}        
+        
+        
+        
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url(../fonts/Drukcyr/DrukCyr-Super.ttf);
+    font-weight: normal;
+    font-style: normal;
+}           
+            
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url(../fonts/Drukcyr/DrukCyr-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url(../fonts/Drukcyr/Drukcyr-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url(../fonts/Drukcyr/DrukCyr-Heavy.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'RF Dewi';
+    src: url(../fonts/Dewi/RFDewiExpanded-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Dewi';
+    src: url(../fonts/Dewi/RFDewiExpanded-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: 'RF Dewi';
+    src: url(../fonts/Dewi/RFDewiExpanded-Semibold.ttf);
+    font-weight: 600;
+    font-style: normal;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
